@@ -1,0 +1,6 @@
+Reference environment used for the reported runs
+Date: 2026-08-07
+Python: 3.13.5
+NetworkX: 3.6.1
+Platform: Linux x86_64
+No stochastic result depends on an unrecorded seed; stress_isalhg.py pins seed 20260807.
