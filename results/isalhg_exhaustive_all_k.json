@@ -1,0 +1,32 @@
+{
+  "scope": "All connected finite simple hypergraphs on n<=4 vertices, separately for fixed pointer/arity bounds k=2,3,4. Round trips: every admissible labelled edge set and every root. Canonicality: one representative of every exact isomorphism class under all n! vertex permutations, plus cross-class collision testing.",
+  "by_k_n": {
+    "2": {
+      "1": {"connected_labelled_hypergraphs": 1, "isomorphism_classes": 1, "rooted_roundtrips_all_labelled": 1, "canonical_relabellings_of_class_representatives": 1, "distinct_canonical_strings": 1},
+      "2": {"connected_labelled_hypergraphs": 1, "isomorphism_classes": 1, "rooted_roundtrips_all_labelled": 2, "canonical_relabellings_of_class_representatives": 2, "distinct_canonical_strings": 1},
+      "3": {"connected_labelled_hypergraphs": 4, "isomorphism_classes": 2, "rooted_roundtrips_all_labelled": 12, "canonical_relabellings_of_class_representatives": 12, "distinct_canonical_strings": 2},
+      "4": {"connected_labelled_hypergraphs": 38, "isomorphism_classes": 6, "rooted_roundtrips_all_labelled": 152, "canonical_relabellings_of_class_representatives": 144, "distinct_canonical_strings": 6}
+    },
+    "3": {
+      "1": {"connected_labelled_hypergraphs": 1, "isomorphism_classes": 1, "rooted_roundtrips_all_labelled": 1, "canonical_relabellings_of_class_representatives": 1, "distinct_canonical_strings": 1},
+      "2": {"connected_labelled_hypergraphs": 1, "isomorphism_classes": 1, "rooted_roundtrips_all_labelled": 2, "canonical_relabellings_of_class_representatives": 2, "distinct_canonical_strings": 1},
+      "3": {"connected_labelled_hypergraphs": 12, "isomorphism_classes": 6, "rooted_roundtrips_all_labelled": 36, "canonical_relabellings_of_class_representatives": 36, "distinct_canonical_strings": 6},
+      "4": {"connected_labelled_hypergraphs": 966, "isomorphism_classes": 81, "rooted_roundtrips_all_labelled": 3864, "canonical_relabellings_of_class_representatives": 1944, "distinct_canonical_strings": 81}
+    },
+    "4": {
+      "1": {"connected_labelled_hypergraphs": 1, "isomorphism_classes": 1, "rooted_roundtrips_all_labelled": 1, "canonical_relabellings_of_class_representatives": 1, "distinct_canonical_strings": 1},
+      "2": {"connected_labelled_hypergraphs": 1, "isomorphism_classes": 1, "rooted_roundtrips_all_labelled": 2, "canonical_relabellings_of_class_representatives": 2, "distinct_canonical_strings": 1},
+      "3": {"connected_labelled_hypergraphs": 12, "isomorphism_classes": 6, "rooted_roundtrips_all_labelled": 36, "canonical_relabellings_of_class_representatives": 36, "distinct_canonical_strings": 6},
+      "4": {"connected_labelled_hypergraphs": 1990, "isomorphism_classes": 171, "rooted_roundtrips_all_labelled": 7960, "canonical_relabellings_of_class_representatives": 4104, "distinct_canonical_strings": 171}
+    }
+  },
+  "failures": [],
+  "aggregate": {
+    "connected_labelled_hypergraphs": 3028,
+    "casewise_isomorphism_classes": 278,
+    "rooted_roundtrips_all_labelled": 12069,
+    "canonical_relabellings_of_class_representatives": 6285
+  },
+  "elapsed_seconds": 20.38526201248169,
+  "failure_count": 0
+}
