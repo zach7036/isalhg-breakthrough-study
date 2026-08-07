@@ -1,0 +1,11 @@
+{
+  "seed": 20260807,
+  "scope": "150 deterministic connected random simple hypergraphs on 5-8 vertices, k in {3,4}; every root and ten random relabellings per instance.",
+  "instances": 150,
+  "rooted_roundtrips": 975,
+  "canonical_relabellings": 1500,
+  "cross_instance_equal_string_checks": 0,
+  "failures": [],
+  "failure_count": 0,
+  "elapsed_seconds": 8.612850189208984
+}
